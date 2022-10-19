@@ -1,0 +1,13 @@
+server {
+    listen      80;
+    server_name localhost; # IP 또는 FQDN으로 변경. 실습에서는 AWS 콘솔에서 IP 확인
+    charset     utf-8;
+
+    # max upload size
+    client_max_body_size 75M;   # adjust to taste
+
+
+    location / {
+        index index.html, index.htm; # 초기 페이지 설정
+    }
+}

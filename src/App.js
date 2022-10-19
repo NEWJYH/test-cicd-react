@@ -1,15 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import TodoApp_NEWJYH from './TodoApp_NEWJYH';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          HELLO WORLD ??? 정영훈
-        </p>
-      </header>
+      <TodoApp_NEWJYH />
+          Learn React
     </div>
   );
 }
